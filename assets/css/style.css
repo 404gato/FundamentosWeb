@@ -1,0 +1,71 @@
+/*
+Estilos da página index
+*/
+.container-menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    font-family: 'Nova Square', cursive;
+    text-transform: lowercase;
+}
+.body{
+    background-color: rgb(19, 19, 19);
+}
+.container {
+    display:flex;
+    justify-content: flex-right;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    align-items: center;
+}
+
+.sobremim{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(177, 214, 139);
+}
+
+.p1 {
+    font-size: 11px;
+    color: rgb(209, 181, 235);
+    text-align: justify;
+    font-family: 'Space Mono', monospace;
+    width: 200px;
+}
+.img-icon{
+    border-radius: 100px;
+}
+
+
+a:link, a:visited {
+	text-decoration: none;
+    color: rgb(90, 221, 90);
+	}
+a:hover {
+	text-decoration: none;
+	color: rgb(168, 109, 247);
+    cursor: pointer;
+	}
+a:active {
+	text-decoration: none
+	}
+
+/*
+Estilos da página contato
+*/
+.form{
+    width: 200px;
+    color: chartreuse;
+}
+
+.form-title{
+    font-size: 27px;
+}
+
+.title{
+    color: rgb(168, 109, 247);
+}
+
+/*
+Estilos da página redesocial
+*/
